@@ -1,0 +1,48 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.cont {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    
+    color: white;
+    height: 100px;
+    width: 400px;
+    transition: transform 100ms linear;
+}
+.tc {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 10px;
+}
+.tc1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+}
+button {
+    margin-right: 15px;
+    opacity: 0.1;
+    transition: opacity 100ms linear;
+}
+.cont:hover {
+    transform: scale(1.2);
+    
+}
+.cont:hover button {
+    opacity: 1;
+}
